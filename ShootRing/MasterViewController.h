@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MasterViewController.h
 //  ShootRing
 //
 //  Created by Micheal on 2017/5/23.
@@ -8,8 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ViewController : NSViewController
-
+@interface MasterViewController : NSViewController
 
 @end
-
