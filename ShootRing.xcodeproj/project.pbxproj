@@ -13,7 +13,12 @@
 		E52B5B7C1ED409470041E8CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52B5B7A1ED409470041E8CB /* Main.storyboard */; };
 		E52B5B871ED409480041E8CB /* ShootRingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E52B5B861ED409480041E8CB /* ShootRingTests.m */; };
 		E52B5B921ED409480041E8CB /* ShootRingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E52B5B911ED409480041E8CB /* ShootRingUITests.m */; };
-		E52B5BA21ED40DE80041E8CB /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E52B5BA01ED40DE80041E8CB /* MasterViewController.m */; };
+		E53666581ED6748F00E13331 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E536664C1ED6748F00E13331 /* MasterViewController.m */; };
+		E536666D1ED679A900E13331 /* DJActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E53666661ED679A900E13331 /* DJActivityIndicator.m */; };
+		E536666E1ED679A900E13331 /* DJBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = E53666681ED679A900E13331 /* DJBezierPath.m */; };
+		E536666F1ED679A900E13331 /* DJProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E536666A1ED679A900E13331 /* DJProgressHUD.m */; };
+		E53666701ED679A900E13331 /* DJProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = E536666C1ED679A900E13331 /* DJProgressIndicator.m */; };
+		E53666741ED6B2D200E13331 /* MHelpHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = E53666731ED6B2D200E13331 /* MHelpHandle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +52,18 @@
 		E52B5B8D1ED409480041E8CB /* ShootRingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShootRingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52B5B911ED409480041E8CB /* ShootRingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShootRingUITests.m; sourceTree = "<group>"; };
 		E52B5B931ED409480041E8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E52B5B9F1ED40DE80041E8CB /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		E52B5BA01ED40DE80041E8CB /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		E536664B1ED6748F00E13331 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		E536664C1ED6748F00E13331 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		E53666651ED679A900E13331 /* DJActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJActivityIndicator.h; sourceTree = "<group>"; };
+		E53666661ED679A900E13331 /* DJActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJActivityIndicator.m; sourceTree = "<group>"; };
+		E53666671ED679A900E13331 /* DJBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJBezierPath.h; sourceTree = "<group>"; };
+		E53666681ED679A900E13331 /* DJBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJBezierPath.m; sourceTree = "<group>"; };
+		E53666691ED679A900E13331 /* DJProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJProgressHUD.h; sourceTree = "<group>"; };
+		E536666A1ED679A900E13331 /* DJProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJProgressHUD.m; sourceTree = "<group>"; };
+		E536666B1ED679A900E13331 /* DJProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJProgressIndicator.h; sourceTree = "<group>"; };
+		E536666C1ED679A900E13331 /* DJProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJProgressIndicator.m; sourceTree = "<group>"; };
+		E53666721ED6B2D200E13331 /* MHelpHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHelpHandle.h; sourceTree = "<group>"; };
+		E53666731ED6B2D200E13331 /* MHelpHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHelpHandle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +114,11 @@
 		E52B5B6E1ED409470041E8CB /* ShootRing */ = {
 			isa = PBXGroup;
 			children = (
+				E53666711ED6B28D00E13331 /* Util */,
+				E536664A1ED6748F00E13331 /* Controllers */,
+				E536664D1ED6748F00E13331 /* Vendor */,
 				E52B5B6F1ED409470041E8CB /* AppDelegate.h */,
 				E52B5B701ED409470041E8CB /* AppDelegate.m */,
-				E52B5B9F1ED40DE80041E8CB /* MasterViewController.h */,
-				E52B5BA01ED40DE80041E8CB /* MasterViewController.m */,
 				E52B5B781ED409470041E8CB /* Assets.xcassets */,
 				E52B5B7A1ED409470041E8CB /* Main.storyboard */,
 				E52B5B7D1ED409470041E8CB /* Info.plist */,
@@ -135,6 +151,47 @@
 				E52B5B931ED409480041E8CB /* Info.plist */,
 			);
 			path = ShootRingUITests;
+			sourceTree = "<group>";
+		};
+		E536664A1ED6748F00E13331 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E536664B1ED6748F00E13331 /* MasterViewController.h */,
+				E536664C1ED6748F00E13331 /* MasterViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E536664D1ED6748F00E13331 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				E53666641ED679A900E13331 /* DJProgressHUD */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		E53666641ED679A900E13331 /* DJProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E53666651ED679A900E13331 /* DJActivityIndicator.h */,
+				E53666661ED679A900E13331 /* DJActivityIndicator.m */,
+				E53666671ED679A900E13331 /* DJBezierPath.h */,
+				E53666681ED679A900E13331 /* DJBezierPath.m */,
+				E53666691ED679A900E13331 /* DJProgressHUD.h */,
+				E536666A1ED679A900E13331 /* DJProgressHUD.m */,
+				E536666B1ED679A900E13331 /* DJProgressIndicator.h */,
+				E536666C1ED679A900E13331 /* DJProgressIndicator.m */,
+			);
+			path = DJProgressHUD;
+			sourceTree = "<group>";
+		};
+		E53666711ED6B28D00E13331 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E53666721ED6B2D200E13331 /* MHelpHandle.h */,
+				E53666731ED6B2D200E13331 /* MHelpHandle.m */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,8 +326,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E536666E1ED679A900E13331 /* DJBezierPath.m in Sources */,
+				E53666701ED679A900E13331 /* DJProgressIndicator.m in Sources */,
+				E53666741ED6B2D200E13331 /* MHelpHandle.m in Sources */,
+				E536666D1ED679A900E13331 /* DJActivityIndicator.m in Sources */,
 				E52B5B741ED409470041E8CB /* main.m in Sources */,
-				E52B5BA21ED40DE80041E8CB /* MasterViewController.m in Sources */,
+				E53666581ED6748F00E13331 /* MasterViewController.m in Sources */,
+				E536666F1ED679A900E13331 /* DJProgressHUD.m in Sources */,
 				E52B5B711ED409470041E8CB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
